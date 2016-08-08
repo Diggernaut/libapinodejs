@@ -169,7 +169,7 @@ var Diggernaut = function(token) {
         }
         //Helper function
     function _callbackCheck(callback) {
-        if (callback !== undefined && callback !== null && typeof(callback) === 'function') {
+        if (callback !== undefined && callback !== null && typeof(callback) !== 'function') {
             return true;
         }
         return false;

@@ -21,7 +21,7 @@ var Diggernaut = function(token) {
     //Usage: dig.GetProjects(console.log)
     this.GetProjects = function(callback) {
         if (!_callbackCheck(callback)) {
-            console.log('ERROR: Callback if not a function!')
+            console.log('ERROR: Callback is not a function!')
             return;
         }
         client.get('https://www.diggernaut.com/api/v1/projects/', parameters, function(data) {
@@ -40,7 +40,7 @@ var Diggernaut = function(token) {
     //Usage: dig.GetDiggers(1, console.log)
     this.GetDiggers = function(project, callback) {
         if (!_callbackCheck(callback)) {
-            console.log('ERROR: Callback if not a function!')
+            console.log('ERROR: Callback is not a function!')
             return;
         }
         client.get('https://www.diggernaut.com/api/v1/projects/' + project + '/diggers', parameters, function(data) {
@@ -69,7 +69,7 @@ var Diggernaut = function(token) {
     //Usage: dig.GetDigger(76, console.log)
     this.GetDigger = function(digger, callback) {
         if (!_callbackCheck(callback)) {
-            console.log('ERROR: Callback if not a function!')
+            console.log('ERROR: Callback is not a function!')
             return;
         }
         client.get('https://www.diggernaut.com/api/v1/diggers/' + digger, parameters, function(data) {
@@ -96,7 +96,7 @@ var Diggernaut = function(token) {
     //Usage: dig.CreateDigger({project: 1, config: '', url: 'www.somesite.com', name:'digger'}, console.log)
     this.CreateDigger = function(params, callback) {
         if (!_callbackCheck(callback)) {
-            console.log('ERROR: Callback if not a function!')
+            console.log('ERROR: Callback is not a function!')
             return;
         }
         //params must be object with fields
@@ -130,7 +130,7 @@ var Diggernaut = function(token) {
     //Usage: dig.UpdateDigger(76, {name:'digger_76'}, console.log)
     this.UpdateDigger = function(id, params, callback) {
             if (!_callbackCheck(callback)) {
-                console.log('ERROR: Callback if not a function!')
+                console.log('ERROR: Callback is not a function!')
                 return;
             }
             //params must object with any of field/fields

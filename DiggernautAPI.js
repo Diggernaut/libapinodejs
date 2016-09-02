@@ -350,7 +350,3 @@ var Diggernaut = function(token) {
     }
 }
 module.exports = Diggernaut;
-var diggernaut = require('Diggernaut');
-
-var digAPI = new diggernaut('f98c1dc37033a8b1755f839685062cf422221111')
-digAPI.GetProjects(console.log);

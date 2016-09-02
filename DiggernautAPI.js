@@ -350,6 +350,3 @@ var Diggernaut = function(token) {
     }
 }
 module.exports = Diggernaut;
-
-var dig = new Diggernaut('f98c1dc37033a8b1755f839685062cf428ad649d');
-dig.GetSessionData(75, 144, console.log)

@@ -1,28 +1,23 @@
 {
-  "name": "diggernaut_api",
-  "version": "0.1",
+  "name": "y",
+  "version": "1.0.0",
   "description": "Diggernaut Official API Library for Node.JS",
   "main": "DiggernautAPI.js",
-  "dependencies": {
-    "node-rest-client": "^2.0.1"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Diggernaut/libapinodejs.git"
+  },
+  "author": "Evgenii Solomanidin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Diggernaut/libapinodejs/issues"
+  },
+  "homepage": "https://github.com/Diggernaut/libapinodejs#readme",
   "keywords": [
-    "\"API\"",
-    "\"Diggernaut\"",
-    "\"Diggernaut.com\"",
-    "\"Scraping\"",
-    "\"data\"",
-    "\"web scraping\"",
-    "\"data minig\"",
-    "\"data analytics\"",
-    "\"big data\"",
-    "\"data visualisation\"",
-    "\"narrator\""
-  ],
-  "author": "Evgeniy Solomanidin",
-  "license": "MIT"
+    "API",
+    "Diggernaut.com"
+  ]
 }

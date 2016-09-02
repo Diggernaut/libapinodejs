@@ -1,5 +1,5 @@
 {
-  "name": "y",
+  "name": "DiggernautAPI",
   "version": "1.0.0",
   "description": "Diggernaut Official API Library for Node.JS",
   "main": "DiggernautAPI.js",
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/Diggernaut/libapinodejs.git"
   },
-  "author": "Evgenii Solomanidin",
+  "author": "Evgenii Solomanidin <eugene.solomanidin@diggernaut.com> (https://www.diggernaut.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Diggernaut/libapinodejs/issues"
